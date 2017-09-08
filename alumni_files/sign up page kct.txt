@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Sign up with our offical Alumni Website of KCT Alumni Association and get connected with the Alumni network of KCT. ">
+    <meta name="keywords" content="alumni panel, alumni account login, KCT, KCT Alumni Association">
+    <meta name="author" content="Alumbook">
+    <meta property="og:url"          	content="http://kctalumni.com/u/register" />
+    <meta property="og:type"          	content="article" />
+    <meta property="og:title"        	content="Sign up with our Official Alumni Website of - KCT Alumni Association" />
+    <meta property="og:description"   	content="Connect with our professional Alumni Network of KCT Alumni Association via our website http://kctalumni.com/ and Android App." />
+    <meta property="og:image"         	content="http://alumbook.net/email_kct/kct_aa.jpg" />
+
+    <link rel="icon" href="http://kctalumni.com/u/lib/img/favicon.ico">
+    <title>
+        KCT Alumni Association - Alumni Registration    </title>
+    <!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
+    <link href="http://kctalumni.com/u/lib/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MAIN CSS (REQUIRED ALL PAGE)-->
+    <link href="http://kctalumni.com/u/lib/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://kctalumni.com/u/lib/css/style.css" rel="stylesheet">
+    <link href="http://kctalumni.com/u/lib/css/main.css" rel="stylesheet">
+    <link href="http://kctalumni.com/u/lib/css/style-responsive.css" rel="stylesheet">
+    <link href="http://kctalumni.com/u/lib/plugins/icheck/skins/square/orange.css" rel="stylesheet">
+    <link href="http://kctalumni.com/u/lib/plugins/icheck/skins/square/blue.css" rel="stylesheet">
+
+    <link href="http://kctalumni.com/u/lib/plugins/tags/tags.css" rel="stylesheet">
+    <link href="http://kctalumni.com/u/lib/plugins/tags/tagit.ui.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    <script type="text/javascript">
+    	var base_path = "http://kctalumni.com/";
+    	var user_path = "http://kctalumni.com/u/";
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+
+<body class="login">
+	<script>
+	  window.fbAsyncInit = function() {
+	    FB.init({
+	      appId      : '922135617903815',
+	      xfbml      : true,
+	      version    : 'v2.5'
+	    });
+	  };
+	  (function(d, s, id){
+	     var js, fjs = d.getElementsByTagName(s)[0];
+	     if (d.getElementById(id)) {return;}
+	     js = d.createElement(s); js.id = id;
+	     js.src = "//connect.facebook.net/en_US/sdk.js";
+	     fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>
+    <div class="page_loading">
+        <div class="loading_image">
+            <p class="load_img"><img src="http://kctalumni.com/u/lib/img/loader.gif" width="80"></p>
+            <p class="load_text">Please Wait...</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="verify">
+                    <p>Already registered?</p>
+                    <a href="http://kctalumni.com/u/" class="btn btn-success  "> Login now</a>
+                </div>
+                <div class="find_rollno">
+                	<p>Forget Roll Number ?</p>
+                	<button  data-toggle="modal" data-target="#findroll" type"button" class="btn btn-danger  btn-perspective"> <i class="fa fa-user"></i> Find My Roll number</button>
+                </div>
+                <div class="verify_block">
+                    <div class="inner">
+                                                <h4>Activate your existing Account </h4>
+                        <p>Dear Alumni, </p>
+                        <p>We have imported our alumni details for Pre registration.</p>
+                        <h5>Enter your Roll Number activated your account</h5>
+                        <form role="form" name="check_form" id="checkAccount" method="POST">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input name="detail" id="c_email" class="form-control" placeholder="Roll Number" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="errcode"></div>
+                                        <p>
+                                            <button type="submit" class="btn btn-warning pull-right">Activate Account</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                                            </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="register">
+                    <div class="reg_logo">
+                        <p><img src="http://kctalumni.com/u/lib/img/logo.png" class=" img-responsive" alt="Logo"></p>
+                    </div>
+                    <div class="head">
+                                                <h3>Sign Up with Email Address</h3>
+                                                <span class="clearfix"></span>
+                    </div>
+                    <div class="errmsgs"></div>
+                    	                    <form role="form" class="email_form validate" method="POST">
+	                    	<div class="sign_welcome">
+	                    		<h4>Dear Alumni, </h4>
+		                        <p>We already have imported our alumni details for Quicker registration.</p>
+		                        <p>Enter your Roll Number activated your account.</p>
+	                    	</div>
+	                        <div class="form-group">
+	                            <div class="row">
+	                            	<div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>Roll Number  <en>*</en></label>
+	                                        <input name="roll_no" id="roll_no" class="form-control" placeholder="Enter Roll No" type="text" minlength="6" required>
+	                                        <span class="help-block hidden-md hidden-lg">Roll Number format 88ECE58 - "88" Batch, "ECE" Department & "58" Number</span>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>First Name
+	                                            <en>*</en>
+	                                        </label>
+	                                        <input name="f_name" id="f_name" class=" form-control" placeholder="" type="text" required>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>Last Name
+	                                            <en>*</en>
+	                                        </label>
+	                                        <input name="l_name" id="l_name" class=" form-control" placeholder="" type="text" required>
+	                                    </div>
+	                                </div>
+	                                <div class="col-md-12 hidden-xs hidden-sm"><span class="help-block">Roll Number format 88ECE58 - "88" Batch, "ECE" Department & "58" Number</span></div>
+	                            </div>
+	                        </div>
+	                        <div class="form-group">
+	                            <div class="row">
+	                                <div class="col-sm-2">
+	                                    <div class="ct-form--item">
+	                                        <label>Graduated Yr
+	                                            <en>*</en>
+	                                        </label>
+	                                        <select class="form-control" name="g_year" id="g_year" required>
+	                                            <option value="">Year</option>
+	                                            <option value='2017' >2017</option><option value='2016' >2016</option><option value='2015' >2015</option><option value='2014' >2014</option><option value='2013' >2013</option><option value='2012' >2012</option><option value='2011' >2011</option><option value='2010' >2010</option><option value='2009' >2009</option><option value='2008' >2008</option><option value='2007' >2007</option><option value='2006' >2006</option><option value='2005' >2005</option><option value='2004' >2004</option><option value='2003' >2003</option><option value='2002' >2002</option><option value='2001' >2001</option><option value='2000' >2000</option><option value='1999' >1999</option><option value='1998' >1998</option><option value='1997' >1997</option><option value='1996' >1996</option><option value='1995' >1995</option><option value='1994' >1994</option><option value='1993' >1993</option><option value='1992' >1992</option><option value='1991' >1991</option><option value='1990' >1990</option><option value='1989' >1989</option><option value='1988' >1988</option><option value='1987' >1987</option><option value='1986' >1986</option><option value='1985' >1985</option><option value='1984' >1984</option><option value='1983' >1983</option><option value='1982' >1982</option><option value='1981' >1981</option>	                                        </select>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-2">
+	                                    <div class="ct-form--item">
+	                                        <label>Degree
+	                                            <en>*</en>
+	                                        </label>
+	                                        <select class="form-control" name="degree" id="degree">
+	                                            <option value="">Degree</option>
+	                                            <option value='b.e' >B.E</option><option value='b.tech' >B.Tech</option><option value='mca' >MCA</option><option value='mba' >MBA</option><option value='m.e' >M.E</option><option value='m.tech' >M.Tech</option><option value='b.sc' >B.Sc</option>	                                        </select>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>Course
+	                                            <en>*</en>
+	                                        </label>
+	                                        <select class="form-control" name="course" id="course">
+	                                        </select>
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>Email Address
+	                                            <en>*</en>
+	                                        </label>
+	                                        <input class="required form-control" placeholder="(Verfication will be done)" type="email" name="email_address" id="email_address">
+	                                    </div>
+	                                </div>
+	                                <!--
+	                                <div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>Specialization </label>
+	                                        <select class="form-control" name="specialization" id="specialization">
+	                                        </select>
+	                                    </div>
+	                                </div>-->
+	                            </div>
+	                        </div>
+	                        <div class="form-group">
+	                            <div class="row">
+	                                <div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>Mobile Number
+	                                            <en>*</en>
+	                                        </label>
+	                                        <input class="form-control" placeholder="(Verfication will be done)" type="text" name="mobile" id="mobile">
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>Password
+	                                            <en>*</en>
+	                                        </label>
+	                                        <input class="form-control" placeholder="" type="password" name="password" id="password">
+	                                    </div>
+	                                </div>
+	                                <div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>Confirm Password
+	                                            <en>*</en>
+	                                        </label>
+	                                        <input class="form-control" placeholder="" type="password" name="c_password" id="c_password">
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <div class="form-group">
+	                            <div class="row">
+	                                <div class="col-sm-4">
+	                                    <div class="ct-form--item">
+	                                        <label>Select Country
+	                                            <en>*</en>
+	                                        </label>
+	                                        <input class="form-control" placeholder="Your Current living Country" autocomplete="off" type="text" name="s_country" id="s_country">
+	                                        <span class="help-block"> Enter your current country to get OTP.</span>
+	                                    </div>
+	                                </div>
+	                                <div class="col-md-4">
+	                                	<label>Facebook Id </label>
+	                                	<input class="form-control" name="fb" value="" placeholder="http://facebook.com/username" type="text">
+	                                </div>
+	                                <div class="col-md-4">
+	                                	<label>Linkedin Id </label>
+	                                	<input class="form-control" name="ln" value="" placeholder="http://linkedin.com/username" type="text">
+	                                </div>
+                                </div>
+	                        </div>
+	                        <div class="form-group">
+								<label>Employment Type <en>*</en></label>
+								<div class="row">
+									<div class="col-sm-6">
+										<ul class="emp_list">
+											<li><input type="radio" name="job_type" class="selectJobType" value="employed" checked> Employed</li>
+											<li><input type="radio" name="job_type" class="selectJobType" value="self-employed" > Self Employed</li>
+											<li><input type="radio" name="job_type" class="selectJobType" value="others" > Others</li>
+										</ul>
+										<span class="clearfix"></span>
+									</div>									
+								</div>
+							</div>
+							<div class="form-group" id="current_job_reg">
+								<label>Current Job Information </label>
+								<div class="row">
+									<div class="col-sm-3">
+										<input class="form-control" placeholder="Current Company" id="user_company" type="text" name="user_company" required>
+									</div>
+									<div class="col-sm-3">
+										<input class="form-control " placeholder="Current Role/Designation" id="user_role" type="text" name="user_role" required >
+									</div>
+									<div class="col-sm-3">
+										<select class="form-control" name="job_domain" id="job_domain" required>
+											<option value=""> Choose Job Domain</option>
+											<option value='banking-and-finance' >Banking and Finance</option><option value='biotech' >Biotech</option><option value='business-development' >Business Development</option><option value='chemical' >Chemical</option><option value='civil' >Civil</option><option value='design' >Design</option><option value='environment-and-agriculture' >Environment and agriculture</option><option value='government' >Government</option><option value='healthcare' >Healthcare</option><option value='hospitality' >Hospitality</option><option value='human-resources' >Human Resources</option><option value='information-technology' >Information Technology</option><option value='management' >Management</option><option value='manufacturing' >Manufacturing</option><option value='mechanical' >Mechanical</option><option value='media-and-internet' >Media and internet</option><option value='non-profit' >Non profit</option><option value='other' >Other</option><option value='software' >Software</option><option value='teaching-and-education' >Teaching and education</option><option value='telecommunications' >Telecommunications</option><option value='transport-and-logistics' >Transport and logistics</option>										</select>
+									</div>
+									<div class="col-sm-3">
+										<select class="form-control" name="working_year" id="working_year" required>
+											<option value=""> Working since (year)</option>
+											<option value='2017' >2017</option><option value='2016' >2016</option><option value='2015' >2015</option><option value='2014' >2014</option><option value='2013' >2013</option><option value='2012' >2012</option><option value='2011' >2011</option><option value='2010' >2010</option><option value='2009' >2009</option><option value='2008' >2008</option><option value='2007' >2007</option><option value='2006' >2006</option><option value='2005' >2005</option><option value='2004' >2004</option><option value='2003' >2003</option><option value='2002' >2002</option><option value='2001' >2001</option><option value='2000' >2000</option><option value='1999' >1999</option><option value='1998' >1998</option><option value='1997' >1997</option><option value='1996' >1996</option><option value='1995' >1995</option><option value='1994' >1994</option><option value='1993' >1993</option><option value='1992' >1992</option><option value='1991' >1991</option><option value='1990' >1990</option>										</select>
+									</div>
+								</div>
+							</div>
+	                       	<div class="form-group">
+	                            <div class="row">
+	                                <div class="col-md-12">
+	                                	<label>Interested Roles or Activity
+	                                        <en>*</en>
+	                                    </label>
+	                                	<ul class="role_list">
+											<li><input type="checkbox" name="role[]" class="i-orange" value="connecting-with-friends-and-alumni" checked> Connecting with Friends and Alumni </li>
+											<li><input type="checkbox" name="role[]" class="i-orange" value="mentoring-students-and-junior Alumni"> Mentoring Students and Junior Alumni </li>
+											<li><input type="checkbox" name="role[]" class="i-orange" value="official-purpose" > Official Purpose </li>
+											<li><input type="checkbox" name="role[]" class="i-orange" value="organizing-events-and-activities " > Organizing Events and Activities </li>
+											<li><input type="checkbox" name="role[]" class="i-orange" value="volunteer-alumni-activities" > Volunteer Alumni Activities</li>
+										</ul>
+										<span class="clearfix"></span>
+	                                </div>
+	                                <div class="col-md-12 col-xs-12">
+	                                	<br/>
+	                                	<div class="form-group">
+											<label>Key Skills or Area of Specialization </label>
+											<ul id="keySkills"></ul>
+											<label class="skill_err error no_display"></label>
+											<p class="help-block"> Type your key skills and press enter to add it. The Key Skills include </p>
+											<p class="help-block"> Examples: For Non-IT professionals: Marketing, Supply chain Management etc and for IT-Professionals: Java, Oracle, etc. </p>
+										</div>
+	                                </div>
+	                                <input type="hidden" name="skillset" value="" id="skillset">
+	                                
+	                            </div>
+	                        </div>
+	                        <div class="form-group">
+	                            <div class="row">
+	                                <div class="col-md-2 col-xs-6">
+	                                    <a href="http://kctalumni.com/" class="btn btn-info">Back to Website</a>
+	                                </div>
+	                                <div class="col-md-10 col-xs-6">
+	                                    <button type="submit" class="btn btn-warning pull-right">Register Now</button>
+	                                    <span class="clearfix"></span>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </form>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="findroll" tabindex="-1" role="dialog" data-toggle="modal" data-backdrop="static" data-keyboard="false">
+	  	<div class="modal-dialog">
+	  		<form role="form" method="POST"  id="findMyRollNo" >
+	  			<input type="hidden" value="D2nFF7zRLo8luqrnhnR4VZNQCrRlF1De4lonsjZC" name="fkey" id="fkey">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" ><label class=""><i class="fa fa-user"></i> Find My Roll number</label></h4>
+					</div>
+					<div class="modal-body">
+						<p>Enter below fields to get your roll number</p>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+			                        <label>Graduated Yr
+			                            <en>*</en>
+			                        </label>
+			                        <select class="form-control" name="gryear" id="gryear" required>
+			                            <option value="">Year</option>
+			                            <option value='2017' >2017</option><option value='2016' >2016</option><option value='2015' >2015</option><option value='2014' >2014</option><option value='2013' >2013</option><option value='2012' >2012</option><option value='2011' >2011</option><option value='2010' >2010</option><option value='2009' >2009</option><option value='2008' >2008</option><option value='2007' >2007</option><option value='2006' >2006</option><option value='2005' >2005</option><option value='2004' >2004</option><option value='2003' >2003</option><option value='2002' >2002</option><option value='2001' >2001</option><option value='2000' >2000</option><option value='1999' >1999</option><option value='1998' >1998</option><option value='1997' >1997</option><option value='1996' >1996</option><option value='1995' >1995</option><option value='1994' >1994</option><option value='1993' >1993</option><option value='1992' >1992</option><option value='1991' >1991</option><option value='1990' >1990</option><option value='1989' >1989</option><option value='1988' >1988</option><option value='1987' >1987</option><option value='1986' >1986</option><option value='1985' >1985</option><option value='1984' >1984</option><option value='1983' >1983</option><option value='1982' >1982</option><option value='1981' >1981</option>			                        </select>
+			                    </div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+			                        <label>Degree
+			                            <en>*</en>
+			                        </label>
+			                        <select class="form-control" name="rdegree" id="rdegree">
+			                            <option value="">Degree</option>
+			                            <option value='b.e' >B.E</option><option value='b.tech' >B.Tech</option><option value='mca' >MCA</option><option value='mba' >MBA</option><option value='m.e' >M.E</option><option value='m.tech' >M.Tech</option><option value='b.sc' >B.Sc</option>			                        </select>
+			                    </div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+			                        <label>Course
+			                            <en>*</en>
+			                        </label>
+			                        <select class="form-control" name="rcourse" id="rcourse">
+			                            			                        </select>
+			                    </div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+			                        <label>Enter your Name
+			                            <en>*</en>
+			                        </label>
+			                        <input type="text" name="rname" class="form-control" placeholder="Enter your name">
+			                    </div>
+							</div>
+						</div>	                    
+						<label class="s_err error no_display"></label>
+						<div class="reply">
+
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="reset" class="btn btn-default"  data-dismiss="modal" >Cancel</button>
+						<button type="submit" class="btn btn-primary" >Find Roll Number</button>
+					</div>
+				</div>
+			</form>
+	  	</div>
+	</div>
+
+	    <script src="http://kctalumni.com/u/lib/js/jquery.min.js"></script>
+    <script src="http://kctalumni.com/u/lib/js/jquery-ui-1.9.2.min.js"></script>
+    <script src="http://kctalumni.com/u/lib/js/bootstrap.min.js"></script>
+    <script src="http://kctalumni.com/u/lib/js/bootbox.min.js"></script>
+    <script src="http://kctalumni.com/u/lib/js/validate.min.js"></script>
+    <script src="http://kctalumni.com/u/lib/js/user.js"></script>
+    <script src="http://kctalumni.com/u/lib/plugins/icheck/icheck.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $("#s_country").autocomplete({
+            source: user_path + 'resource/user_ajax_redirect.php?page=searchCountry',
+            minLength: 1
+        });
+        $( "#user_company" ).autocomplete({
+	        source: user_path+'resource/user_ajax_redirect.php?page=suggestCompany',
+	        minLength:1
+	    });
+	    $( "#user_role" ).autocomplete({
+	        source: user_path+'resource/user_ajax_redirect.php?page=suggestPosition',
+	        minLength:1
+	    });
+
+		$('input.i-orange').iCheck({
+	    	checkboxClass: 'icheckbox_square-orange',
+	   		radioClass: 'iradio_square-orange',
+	   		increaseArea: '5%' // optional
+	  	});
+	  	$('input.i-blue').iCheck({
+	    	checkboxClass: 'icheckbox_square-blue',
+	   		radioClass: 'iradio_square-blue',
+	   		increaseArea: '5%' // optional
+	  	});
+    });
+    </script>
+    <script src="http://kctalumni.com/u/lib/plugins/tags/tags.min.js"></script>
+	<script type="text/javascript">
+		$('#keySkills').tagit({
+			fieldName: "skills",
+            allowSpaces: true
+        });
+	</script>
+
+    	    <script type="text/javascript">
+		    $(window).load(function(){
+		        $('#activate_popup').modal('show');
+		    });
+		</script>
+		<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-64453061-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+
+</html>

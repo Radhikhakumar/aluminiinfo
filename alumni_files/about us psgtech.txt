@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  
+                  <title>Office Bearers | KCT Alumni Association</title>
+          <meta name="description" content="Official Alumni Website of Kumaraguru College of Technology. Login to the Website and get connected the Alumni Network of KCT.">
+          
+          <meta property="og:type" content="Office Bearers | KCT Alumni Association"/>
+          <meta property="og:image" content="http://kctalumni.com/resource/uploads/lib/kct_logo.jpg"/>
+          <meta property="og:image:width" content="450"/>
+          <meta property="og:image:height" content="298"/>
+
+          <meta name="keywords" content="KCT alumni panel, Kumaraguru College of Technology">
+  <meta name="author" content="Alumbook, Webykart Inc">
+  <meta property="og:url" content="url=index.php&url=about/officebearers"/>
+  <meta property="og:site_name" content="KCT alumni panel, Kumaraguru College of Technology"/>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="http://kctalumni.com/lib/images/favicon.ico">  
+  <!-- CSS
+  ================================================== -->  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/bootstrap.min.css">
+  <!-- Template styles-->
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/style.css">
+  <!-- Responsive styles-->
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/responsive.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/font-awesome.min.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/animate.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/owl.carousel.css">
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/owl.theme-min.css">
+  <!-- Flexslider -->
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/flexslider.css">
+  <!-- Flexslider -->
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/cd-hero.css">
+  <!-- Style Swicther -->
+  <link id="style-switch" href="http://kctalumni.com/lib/css/presets/preset1.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://kctalumni.com/lib/css/custom.css">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="http://kctalumni.com/lib/js/html5shiv.js"></script>
+      <script src="http://kctalumni.com/lib/js/respond.min.js"></script>
+    <![endif]-->
+  <script type="text/javascript">
+    var base_path = "http://kctalumni.com/";
+    var user_path = "http://kctalumni.com/u/";
+  </script>
+           
+     
+</head>    
+<body>
+
+    <div class="body-inner">
+
+    <div class="page_loading">
+    <div class="loading_image">
+        <p class="load_img"><img  src="http://kctalumni.com/lib/images/loader.gif" ></p>
+        <p class="load_text">Please Wait...</p>
+    </div>
+</div>
+<!-- Header start -->
+    <header id="header" class="ts-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 logo-wrapper">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <div class="navbar-brand">
+                            <a href="http://kctalumni.com/">
+                                <img src="http://kctalumni.com/lib/images/logo.png"></a>
+                            </a> 
+                        </div>                   
+                    </div><!--/ Logo end -->
+                </div>
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="play_link"><a href="https://play.google.com/store/apps/details?id=com.kct.aa" target="_blank"><img src="http://kctalumni.com/lib/images/play.png"></a>
+                    <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1148999702&mt=8" target="_blank" ><img class="ios" src="http://kctalumni.com/lib/images/ios.png"></a></p>
+                </div>
+
+
+            </div>
+        </div>
+    </header><!--/ Header end -->
+
+    <!-- Navigation start -->
+    <div class="navbar ts-mainnav">
+        <div class="container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <nav class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="http://kctalumni.com/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Directory <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="http://kctalumni.com/u/search">Find Alumni</a></li>
+                                <li><a href="http://kctalumni.com/u/category">Search By Category</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="http://giving.kctalumni.com/" target="_blank">Fundraising</a></li>
+                    <li class=""><a href="http://kctalumni.com/events">Events</a></li>
+                    <li class=""><a href="http://kctalumni.com/needs">Needs</a></li>
+                    <li class=""><a href="http://kctalumni.com/jobs">Jobs</a></li>   
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">News <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="http://kctalumni.com/news">Alumni News</a></li>
+                                <li><a href="http://kctalumni.com/collegenews">College News</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="http://kctalumni.com/about">About Us</a></li>
+                                <li><a href="http://kctalumni.com/about/officebearers">Office Bearers</a></li>
+                                <li><a href="http://kctalumni.com/about/chapters">Alumni Chapters</a></li>
+                                <li><a href="http://kctalumni.com/about/app">Download App</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Alumni Corner <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="http://kctalumni.com/gallery">Image Gallery</a></li>
+                                <li><a href="http://kctalumni.com/needs">Alumni Needs</a></li>
+                                <li><a href="http://kctalumni.com/newsletter">Newsletters</a></li>
+                                <li><a href="http://kctalumni.com/alumnitalk">Alumni Guest Lectures</a></li>
+                                <li><a href="http://kctalumni.com/distinguishedalumni">Distinguished Alumni </a></li>
+                                <li><a href="http://kctalumni.com/awards">Alumni Awards</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="http://kctalumni.com/u/">login</a></li>
+                    <li class=""><a href="http://kctalumni.com/discounts">Discounts</a></li>
+                </ul><!--/ Navbar-nav end -->
+            </nav><!--/ Navigation end -->
+
+
+        </div><!--/ Container end -->
+    </div> <!-- Navbar end -->
+    <div id="banner-area">
+        <!-- Subpage title start -->
+        <div class="banner-title-content">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li>Home</li>
+                    <li><a href="#"> About Us</a></li>
+                </ul>
+            </div>
+        </div><!-- Subpage title end -->
+    </div><!-- Banner area end -->
+
+    <!-- Main Bottom start -->
+    <section class="ts-main-bottom event_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title-border"><strong>Office Bearers</strong> KCT Alumni Association </h2>
+                </div>
+                <span class="clearfix"></span>
+            </div><!--/ Main row end -->
+        </div>
+        <div class="container">
+            <div class="row minheight" >
+                
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_nUBPTUZEDfgOmlZMCaDu.jpeg' alt='Amit Kumar '>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Amit Kumar </p>
+								<p class='course'> 1995 - B.E | MECH</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_aHWS9JWsRc3MhN8C3Kx4.jpeg' alt='ATHIYANNAN S'>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>ATHIYANNAN S</p>
+								<p class='course'> 2011 - M.E | CADCA</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_XpVTchMFctA7zx3G400Z.jpeg' alt='Azhagesan R'>
+								<div class='name'>
+									<a href='javascript:void();'> Vice President</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Azhagesan R</p>
+								<p class='course'> 1989 -  | CE</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_bgpAf6nmPbMbuLG1sXD3.jpeg' alt=' Rajesh Prabhu '>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'> Rajesh Prabhu </p>
+								<p class='course'> 2000 - B.E | EEE</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_LbBPdvjB3aO7AStRCgB5.jpeg' alt='Balu Prasanna H'>
+								<div class='name'>
+									<a href='javascript:void();'> Treasurer</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Balu Prasanna H</p>
+								<p class='course'> 2007 -  | BT</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_6B3Zs8TIFLy4Z0xgTzIj.jpeg' alt='Jothiramalingam Sivasubramaniam'>
+								<div class='name'>
+									<a href='javascript:void();'> Joint Secretary</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Jothiramalingam Sivasubramaniam</p>
+								<p class='course'> 1994 - B.E | MECH</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/no_pic.jpg' alt='Kingsley D'>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Kingsley D</p>
+								<p class='course'> 1990 -  | EEE</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_K0TPwZc4udgs2T0dQBEL.jpeg' alt='Kousik R'>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Kousik R</p>
+								<p class='course'> 2009 - MCA | MCA</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_R3FVjvdZQuyjbzCppHty.jpeg' alt='MANIVANNAN K.N.'>
+								<div class='name'>
+									<a href='javascript:void();'> President</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>MANIVANNAN K.N.</p>
+								<p class='course'> 1990 - B.E | ELECT</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_V6Hqch9cukgc0LpxtDEi.jpeg' alt='Munikumar  '>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Munikumar  </p>
+								<p class='course'> 1997 - B.E | TXT</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_pxb2yyn61LzysLZ7nXzM.jpeg' alt='Rafique L'>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Rafique L</p>
+								<p class='course'> 1993 - B.E | MECH</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/no_pic.jpg' alt='Rajendran '>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Rajendran </p>
+								<p class='course'> 1992 - B.E | MECH</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_WnG77ylyS0w8LaOJ6DTw.jpeg' alt='Sandeep N'>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Sandeep N</p>
+								<p class='course'> 2000 - B.E | TXT</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_tVaq6Ibl3ZJH2x4nDcdS.jpeg' alt='Subbiah P'>
+								<div class='name'>
+									<a href='javascript:void();'> Executive Members</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Subbiah P</p>
+								<p class='course'> 2006 -  | CE</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_F2hJmrAh7ksiJ3mfC9Sr.jpeg' alt='Sundaravadivel '>
+								<div class='name'>
+									<a href='javascript:void();'> Founding President</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Sundaravadivel </p>
+								<p class='course'> 1990 - B.E | MECHA</p>
+							</div>
+						</div>
+					</div>
+		      		<div class='col-md-3 col-xs-6 col-sm-6'>
+	  					<div class='f_alumni office'>							
+							<div class='image'>
+								<img class='img-responsive' src='http://kctalumni.com/u/resource/uploads/profile/profile_pic_xbLOWFyPs0n101z1coVX.jpeg' alt='Vijay Mohandas '>
+								<div class='name'>
+									<a href='javascript:void();'> Secretary</a>
+								</div>
+							</div>							
+							<div class='info'>
+								<p class='uname'>Vijay Mohandas </p>
+								<p class='course'> 1997 - B.E | ECE</p>
+							</div>
+						</div>
+					</div>            </div>
+        </div>
+    </section><!--/ Main Bottom end -->
+
+
+   <!-- Footer start -->
+    <footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-12 footer-widget">
+                <h3 class="widget-title"><strong>Chapters</strong> List</h3>
+                <ul class="list-arrow">
+                    
+					<li><a href='http://kctalumni.com/u/about/chapter/parent-chapter' >Parent Chapter</a></li>
+					<li><a href='http://kctalumni.com/u/about/chapter/bangalore-chapter' >Bangalore Chapter</a></li>
+					<li><a href='http://kctalumni.com/u/about/chapter/chennai-chapter' >Chennai Chapter</a></li>
+					<li><a href='http://kctalumni.com/u/about/chapter/delhi-chapter' >Delhi Chapter</a></li>   
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-12 footer-widget ">
+                <h3 class="widget-title"><strong>Alumni  </strong>Events </h3>
+                <ul class="list-arrow">
+                    
+					<li><a href='http://kctalumni.com/u/events/detail/international-conference-on-wastewater-management-icww-2017' >INTERNATIONAL CONFERENCE ON WASTEWATER MANAGEMENT (ICWW - 2017)</a></li>
+					<li><a href='http://kctalumni.com/u/events/detail/global-alumni-meet-17' >Global Alumni meet -17</a></li>
+					<li><a href='http://kctalumni.com/u/events/detail/10th-reunion-2003-2007-batch' >10th reunion (2003 - 2007 batch)</a></li>
+					<li><a href='http://kctalumni.com/u/events/detail/11.global-alumni-meet-17' >Global Alumni meet-17</a></li>
+					<li><a href='http://kctalumni.com/u/events/detail/15th-year-alumni-reunion' >15th year Alumni Reunion</a></li>
+					<li><a href='http://kctalumni.com/u/events/detail/invitation-for-inauguration-of-bosch-centre-for-automotive-electronics-at-kct-on-16-nov-2016' >Invitation for Inauguration of Bosch Centre for Automotive Electronics at KCT on 16 Nov 2016</a></li>                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-12 footer-widget">
+                <h3 class="widget-title"><strong>Quick </strong> Links</h3>
+                <ul class="list-arrow">
+                    <li><a href="http://kctalumni.com/needs">Alumni Needs</a></li>
+                    <li><a href="http://kctalumni.com/newsletter">Newsletter</a></li>
+                    <li><a href="http://kctalumni.com/alumnitalk">Alumni Guest Lecture</a></li>
+                    <li><a href="http://kctalumni.com/distinguishedalumni">Distinguished Alumni</a></li>
+                    <li><a href="http://kctalumni.com/awards">Alumni Awards</a></li>
+                    <li><a href="http://kctalumni.com/gallery">Image Gallery</a></li>
+                    <li><a href="http://kctalumni.com/jobs">Job Portal</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-12 footer-widget footer-about-us">                  
+                <h3 class="widget-title"><strong>Contact </strong>Info </h3>
+                <h4><i class="fa fa-map-marker">&nbsp;</i> Address</h4>
+                <p>Kumaraguru College of Technology, Saravanampatty, Coimbatore, Tamil Nadu. </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4><i class="fa fa-envelope-o">&nbsp;</i> Email</h4>
+                        <p>ear@kct.ac.in</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4><i class="fa fa-phone">&nbsp;</i> Phone No</h4>
+                        <p>0422 - 2661519</p>
+                    </div>
+                </div>
+                <ul class="footer-social unstyled">
+                    <li>
+                        <a title="Facebook" href="https://www.facebook.com/KCT-Alumni-Relations-215565021980425/" target="_blank">
+                            <span class="social-icon"><i class="fa fa-facebook"></i></span>
+                        </a>
+                        <a title="Linkedin" href="https://www.linkedin.com/groups/66158" target="_blank">
+                            <span class="social-icon"><i class="fa fa-linkedin"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--/ End Recent Posts-->
+
+        </div><!-- Row end -->
+    </div><!-- Container end -->
+
+    <!-- Copyright start -->
+    <section id="copyright" class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright-info">
+                    Copyright © 2017 KCT Alumni Association. All Rights Reserved.
+                </div>
+
+                <div class="col-sm-5 pull-right">
+                    <div class="footer-menu ">
+                        <ul class="nav">
+                            <li><a href="http://kctalumni.com/about">About Us</a></li>
+                            <li><a href="http://kctalumni.com/about/privacy">Privacy Policy</a></li>
+                            <li><a href="http://kctalumni.com/about/terms">Terms</a></li>
+                            <li><a href="http://kctalumni.com/contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div><!--/ Row end -->
+           <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+                <button class="btn btn-primary" title="Back to Top">
+                    <i class="fa fa-angle-double-up"></i>
+                </button>
+            </div>
+        </div><!--/ Container end -->
+    </section><!--/ Copyright end -->
+</footer>
+
+    <!-- Footer end -->
+    
+
+        
+    <!-- initialize jQuery Library -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/jquery.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/owl.carousel.min.js"></script>
+    <!-- Bxslider -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/jquery.flexslider.js"></script>
+    <!-- CD Hero slider -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/cd-hero.js"></script>
+    <!-- Isotope -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/isotope.js"></script>
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/ini.isotope.js"></script>
+    <!-- Eeasing -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/jquery.easing.1.3.js"></script>
+    <!-- Counter -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/jquery.counterup.min.js"></script>
+    <!-- Waypoints -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/waypoints.min.js"></script>
+    <!-- Template custom -->
+    <script type="text/javascript" src="http://kctalumni.com/lib/js/custom.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-64453061-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+
+     
+    
+      
+
+    
+     
+
+    
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+    
+ 
+
+    </div><!-- Body inner end -->
+</body>
+</html>
